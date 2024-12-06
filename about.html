@@ -17,44 +17,50 @@
 
 <body class="p4-black">
     <div id="container">
-        <nav id="navbar">
-            <!-- Navigation content goes here -->
-            <p><img src="images/menu.jpg" width=70px height=70px alt="navigation"></p>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        <header>
+            <nav id="navbar">
+                <!-- Navigation content goes here -->
+                <p><img src="images/menu.jpg" alt="navigation"></p>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div id="main">
-            <header id="header" class="p4-page">
-                <!-- Header content goes here -->
-                <h1>Hi, I'm Jason Li</h1>
-                <h2>A Future Full Stack Web Developer</h2>
-            </header>
-            <!-- Content for each page goes here -->
-            <div id="about" class="p4-page">
-                <h2>About Me</h2>
-                <hr style="width:200px">
-                <p>My name is Jason Li and I am a full stack web developer. I have experience in HTML, CSS, JavaScript,
-                    and
-                    PHP. I am currently working on a project to showcase my skills and experience. Please feel free to
-                    explore my ePortfolio and contact me if you have any questions.</p>
-                <h3>My Skills</h3>
-                <p class="w3-wide">Java</p>
-                <div class="w3-white">
-                    <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+
+        <div id="content">
+            <main>
+                <div id="banner">
+                    <!-- Header content goes here -->
+                    <h1>Welcom to My Website</h1>
+                    <h2>Stay Hungry, Stay Foolish</h2>
                 </div>
-                <p class="w3-wide">HTML&CSS</p>
-                <div class="w3-white">
-                    <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+                <!-- Content for each page goes here -->
+                <div id="about">
+                    <h2>About Me</h2>
+                    <hr>
+                    <p>My name is Jason Li and I am an international student studying full stack web development in Red
+                        River College. I have experience in HTML, CSS,
+                        JavaScript. I used to be a product manager in IT companies in China. </p>
+                    <p>If you want to know more about my prior experience, you can visit my LinkedIn from the bottom
+                        link. Hope to recieve your message!</p>
+                    <h3>My Skills</h3>
+                    <p class="w3-wide">Java</p>
+                    <div class="w3-white">
+                        <div id="myJava" class="w3-dark-grey"></div>
+                    </div>
+                    <p class="w3-wide">HTML&CSS</p>
+                    <div class="w3-white">
+                        <div id="myHTML" class="w3-dark-grey"></div>
+                    </div>
+                    <p class="w3-wide">JavaScript</p>
+                    <div class="w3-white">
+                        <div id="myJs" class="w3-dark-grey"></div>
+                    </div>
                 </div>
-                <p class="w3-wide">JavaScript</p>
-                <div class="w3-white">
-                    <div class="w3-dark-grey" style="height:28px;width:80%"></div>
-                </div>
-            </div>
+            </main>
             <footer id="footer">
                 <ul>
                     <li><a href="./index.html">Home</a></li>
@@ -63,7 +69,8 @@
                     <li>|</li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
-                <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/sen-li-539b7693/">LinkedIn
+                <p id="linkedin">Connect with me on LinkedIn: <a
+                        href="https://www.linkedin.com/in/sen-li-539b7693/">Jason's LinkedIn
                         Profile</a></p>
             </footer>
         </div>

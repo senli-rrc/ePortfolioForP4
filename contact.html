@@ -17,76 +17,77 @@
 
 <body class="p4-black">
     <div id="container">
-        <nav id="navbar">
-            <!-- Navigation content goes here -->
-            <p><img src="images/menu.jpg" width=70px height=70px alt="navigation"></p>
-            <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-        <div id="main">
-            <header id="header">
-                <!-- Header content goes here -->
-                <h1>Hi, I'm Jason Li</h1>
-                <h2>A Future Full Stack Web Developer</h2>
-            </header>
-            <div id="contact">
-                <h2>Contact Me</h2>
-                <hr style="width:200px">
-                <p>Let's get in touch. Send me a message:</p>
-                <form id="messageform" action="./index.html" method="post">
-                    <fieldset>
-                        <ul>
-                            <li>
-                                <label for="name"></label>
-                                <input id="name" name="name" type="text" placeholder="Name" />
-                                <p class="contactError error" id="name_error">* Required field</p>
-                            </li>
-                            <li>
-                                <label for="phone"></label>
-                                <input id="phone" name="phone" type="text" placeholder="Phone Number" />
-                                <p class="contactError error" id="phone_error">* Required field</p>
-                                <p class="contactError error" id="phoneformat_error">
-                                    * Invalid phone number address
-                                </p>
-                            </li>
-                            <li>
-                                <label for="email"></label>
-                                <input id="email" name="email" type="text" placeholder="Email" />
-                                <p class="contactError error" id="email_error">* Required field</p>
-                                <p class="contactError error" id="emailformat_error">
-                                    * Invalid email address
-                                </p>
-                            </li>
-                            <li>
-                                <label for="message"></label>
-                                <textarea id="message" name="message" placeholder="Message"></textarea>
-                                <p class="contactError error" id="message_error">* Required field</p>
-                            </li>
-                        </ul>
-                        <button id="submit" type="submit">SEND MESSAGE</button>
-                        <button id="reset" type="reset">RESET</button>
-                    </fieldset>
-                </form>
-            </div>
-            <footer id="footer">
+        <header>
+            <nav id="navbar">
+                <p><img src="images/menu.jpg" alt="navigation"></p>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li>|</li>
                     <li><a href="./about.html">About</a></li>
-                    <li>|</li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
-                <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/sen-li-539b7693/">LinkedIn
-                        Profile</a></p>
-            </footer>
+            </nav>
+        </header>
+
+        <div id="content">
+            <main>
+                <div id="banner">
+                    <h1>Welcom to My Website</h1>
+                    <h2>Stay Hungry, Stay Foolish</h2>
+                </div>
+                <div id="contact">
+                    <h2>Contact Me</h2>
+                    <hr>
+                    <p>Let's get in touch. Send me a message:</p>
+                    <form id="messageform" action="./index.html" method="post">
+                        <fieldset>
+                            <ul>
+                                <li>
+                                    <label for="name"></label>
+                                    <input id="name" name="name" type="text" placeholder="Name" />
+                                    <p class="contactError error" id="name_error">* Required field</p>
+                                </li>
+                                <li>
+                                    <label for="phone"></label>
+                                    <input id="phone" name="phone" type="text" placeholder="Phone Number" />
+                                    <p class="contactError error" id="phone_error">* Required field</p>
+                                    <p class="contactError error" id="phoneformat_error">
+                                        * Invalid phone number address
+                                    </p>
+                                </li>
+                                <li>
+                                    <label for="email"></label>
+                                    <input id="email" name="email" type="text" placeholder="Email" />
+                                    <p class="contactError error" id="email_error">* Required field</p>
+                                    <p class="contactError error" id="emailformat_error">
+                                        * Invalid email address
+                                    </p>
+                                </li>
+                                <li>
+                                    <label for="message"></label>
+                                    <textarea id="message" name="message" placeholder="Message"></textarea>
+                                    <p class="contactError error" id="message_error">* Required field</p>
+                                </li>
+                            </ul>
+                            <button id="submit" type="submit">SEND MESSAGE</button>
+                            <button id="reset" type="reset">RESET</button>
+                        </fieldset>
+                    </form>
+                </div>
+                <footer id="footer">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li>|</li>
+                        <li><a href="./about.html">About</a></li>
+                        <li>|</li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                    <p id="linkedin">Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/sen-li-539b7693/">Jason's LinkedIn
+                            Profile</a></p>
+                </footer>
+            </main>
         </div>
+
     </div>
-
-
 </body>
 
 </html>
